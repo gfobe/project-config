@@ -1,0 +1,11 @@
+# Repositories to fetch puppet modules from.
+
+repodeploy::repos:
+  '/opt/puppet-modules/apache':
+    source: https://github.com/puppetlabs/puppetlabs-apache.git
+    revision: 1.2.0
+    provider: git
+  '/opt/puppet-modules/logrotate':
+    source: https://github.com/rodjek/puppet-logrotate.git
+    revision: 89ee645e2350045be48df7ac3ef86cbe4cd9b096
+    provider: git

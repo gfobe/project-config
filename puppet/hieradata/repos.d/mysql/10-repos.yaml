@@ -1,0 +1,7 @@
+# Repositories to fetch puppet modules from.
+
+repodeploy::repos:
+  '/opt/puppet-modules/mysql':
+    revision: b338635919f8a4b4727305d7bb3adc3b0725a941
+    source: git://github.com/puppetlabs/puppetlabs-mysql.git
+    provider: git
