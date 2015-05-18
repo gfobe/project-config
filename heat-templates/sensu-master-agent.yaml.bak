@@ -61,7 +61,7 @@ parameters:
 
   config_repo:
     description: Git repository containing project specific cloud configuration
-    default: https://github.com/gfobe/project-config.git
+    default: https://github.com/syseleven/project-config.git
     type: string
 
   config_branch:

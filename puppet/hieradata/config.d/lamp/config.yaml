@@ -1,0 +1,2 @@
+lamp::profile::server::mysql_root_password: 'mysql_root_password_changeme'
+lamp::profile::server::mysql_db_password: 'mysql_db_password_changeme'
