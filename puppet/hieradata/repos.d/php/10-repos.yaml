@@ -2,6 +2,6 @@
 
 repodeploy::repos:
   '/opt/puppet-modules/php':
-    source: https://github.com/jippi/puppet-php.git
-    revision: 4d0648af32dff3b5e78dd8a3c964888257271d89
+    source: https://github.com/mayflower/puppet-php.git
+    revision: 3.2.2
     provider: git
