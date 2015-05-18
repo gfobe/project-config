@@ -1,0 +1,3 @@
+apache::vhost:
+  'user01.user.bluegento.com':
+    docroot: /var/www/user01.user.bluegento.com
